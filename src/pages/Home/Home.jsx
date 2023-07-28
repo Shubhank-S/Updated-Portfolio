@@ -1,14 +1,26 @@
 import React from "react";
 import "./Home.css";
 import Resume from "../../assets/Resume.pdf";
+import Typewriter from "typewriter-effect";
 
 function Home() {
   return (
     <div className="home">
       <div className="about">
-        <h2>Hi, My Name is Shubhank</h2>
+        <h2>
+          <Typewriter
+            options={{
+              strings: ["Hi, My Name is Shubhank 👋"],
+              autoStart: true,
+              loop: true,
+            }}
+          />
+        </h2>
         <div className="prompt">
           <p>A software developer</p>
+          <a href={Resume} download="Shubhank's_Resume" className="resume">
+            Download CV
+          </a>
         </div>
       </div>
       <div className="skills">

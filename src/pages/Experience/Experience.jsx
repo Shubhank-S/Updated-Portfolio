@@ -20,6 +20,26 @@ function Experience() {
             St Joseph Convent School Mahidpur Ujjain
           </h3>
         </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="verticle-timeline-element-education"
+          date="2004 - 2009"
+          iconStyle={{ background: "#3e497a", color: "#fff" }}
+          icon={<SchoolIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            St Joseph Convent School Mahidpur Ujjain
+          </h3>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="verticle-timeline-element-education"
+          date="2004 - 2009"
+          iconStyle={{ background: "#3e497a", color: "#fff" }}
+          icon={<SchoolIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            St Joseph Convent School Mahidpur Ujjain
+          </h3>
+        </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
   );
