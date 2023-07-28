@@ -1,8 +1,6 @@
 import React from "react";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import EmailIcon from "@mui/icons-material/Email";
-import GitHubIcon from "@mui/icons-material/GitHub";
 import "./Home.css";
+import Resume from "../../assets/Resume.pdf";
 
 function Home() {
   return (
@@ -11,9 +9,6 @@ function Home() {
         <h2>Hi, My Name is Shubhank</h2>
         <div className="prompt">
           <p>A software developer</p>
-          <LinkedInIcon />
-          <EmailIcon />
-          <GitHubIcon />
         </div>
       </div>
       <div className="skills">
