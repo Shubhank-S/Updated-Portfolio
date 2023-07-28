@@ -5,6 +5,7 @@ import Project from "./pages/Projects/Project";
 import Experience from "./pages/Experience/Experience";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
+import ProjectDisplay from "./pages/ProjectDisplay/ProjectDisplay";
 
 // import ProjectDisplay from "./Pages/ProjectDisplay";
 
@@ -17,7 +18,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Project />} />
           <Route path="/experience" element={<Experience />} />
-          {/* <Route path="/project/:id" element={<ProjectDisplay />} /> */}
+          <Route path="/project/:id" element={<ProjectDisplay />} />
         </Routes>
         <Footer />
       </Router>
