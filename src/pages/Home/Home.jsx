@@ -17,8 +17,8 @@ function Home() {
           />
         </h2>
         <div className="prompt">
-          <p>A software developer</p>
-          <a href={Resume} download="Shubhank's_Resume" className="resume">
+          <p>A Frontend developer</p>
+          <a href={Resume} download="Shubhank's Resume" className="resume">
             Download CV
           </a>
         </div>
