@@ -12,7 +12,7 @@ function Footer() {
         <InstagramIcon />
         <GitHubIcon />
       </div>
-      <p> &copy; 2022 Shubhank Sharma</p>
+      <p> &copy; 2023 Shubhank Sharma</p>
     </div>
   );
 }

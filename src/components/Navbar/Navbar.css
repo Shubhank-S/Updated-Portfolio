@@ -16,6 +16,7 @@
   .links .active{
 
     color: #e9d35b;
+    margin-bottom: 2px solid  #e9d35b;
   }
   
   .navbar a {
@@ -23,6 +24,7 @@
     text-decoration: none;
     margin: 20px;
     font-size: 25px;
+    
   }
   .navbar a:hover {
     color: #e9d35b;

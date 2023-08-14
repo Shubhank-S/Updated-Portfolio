@@ -27,8 +27,9 @@ function Home() {
         <h1>Skills</h1>
         <ol className="list">
           <li className="item">
-            <h2>Technologies</h2>
             <span>HTML, CSS, Javascipt , ReactJS </span>
+            <h2>Technologies</h2>
+            <p></p>
           </li>
         </ol>
       </div>
